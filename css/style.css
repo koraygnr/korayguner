@@ -1,0 +1,131 @@
+/* Google Fonts ( Poppins ) */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;700&display=swap');
+
+
+
+
+* {
+    color: #222222 !important;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif !important; 
+    text-decoration: none !important;
+}
+html, body {
+    height: 100%;
+}
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 4rem;
+    margin-bottom: 20px;
+}
+h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+p {
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 2rem;
+    margin-bottom: 20px;
+
+}
+.min-100{
+    min-height: 100%;
+}
+.container {
+    height: 100%;
+}
+.title-purple {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 4rem;
+    margin-bottom: 20px;
+    color: #6C63FF !important;
+}
+.text-purle {
+    font-size: 1.25rem;
+    font-weight: 700 !important;
+    line-height: 2rem;
+    margin-bottom: 20px;
+    color: #6C63FF !important;
+}
+
+
+/* Navigation Bar */
+
+.navigation {
+    position: relative;
+    width: 100%;
+    z-index: 1000;
+}
+.navbar {
+    min-height: 100px;
+}
+#navbarNav {
+    justify-content: flex-end;
+} 
+.navbar-brand {
+    /* color: #222222; */
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.nav-item {
+    font-weight: 300;
+    padding-left: 3rem;
+}
+.active {
+    font-weight: 500;
+}
+
+
+/* Buttons */
+
+.btn {
+    color: white !important;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 0;
+    border: none;
+    padding: 0.75rem 3rem;
+    
+}
+.btn-primary {
+    background-color: #6C63FF;
+}
+.btn-primary:hover {
+    background-color: #5f57ff;
+}
+
+
+.profileImg {
+    border-radius: 100%;
+    box-shadow: 5px 5px 0px #6C63FF;
+}
+
+
+#about {
+    background-color: black;
+}
+#about p, h2 {
+    color: white !important;
+}
+
+#works ul li {
+    padding-right: 1rem;
+}
+
+#contact {
+    background-color: black;
+}
+#contact p, h2 {
+    color: white !important;
+}
+#contact ul li {
+    padding-right: 1rem;
+}
+#contact img {
+    width: 2.5rem;
+    filter: invert(1);
+}
